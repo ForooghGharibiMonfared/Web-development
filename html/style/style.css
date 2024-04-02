@@ -1,0 +1,172 @@
+/* style.css */
+
+/* Common styles for all logos */
+.logo {
+    font-family: fantasy;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #7FFFD4;
+  .small {
+    font-size: 35px;
+}
+}
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* CSS for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+/* CSS for the hamburger menu icon */
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bar {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* CSS for the navigation links */
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Initially hidden */
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+.top-menu{
+  height: 50px;
+  background-color: #00BFFF;
+  position: relative;
+}
+.top-menu ul{
+  text-align: right;
+  margin-right: 10px;
+  height: 50px;
+  margin-top: 0px;
+}
+.top-menu ul li{
+  list-style: none;
+  display: block;
+  float: left;
+  height: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.top-menu ul li a{
+  color: #fff;
+  font-family: revert;
+    font-size: 25px;
+    display: block;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.top-menu ul li a:hover{
+  background-color: #d5dbe6;
+  color: #0096ff;
+  border-top: 5px solid #39b54a;
+}
+/* Common styles for all logos */
+.choice{
+  background-color: #008080;
+font-size: 30px;
+}
+.custom-select {
+  margin-top: 1px;
+  position: relative;
+  width: 20px;
+  margin: 0 auto; /* Center the select menu */
+}
+/* Container for the slider */
+.slider-container {
+  width: 100%;
+  max-width: 800px; /* Set maximum width for larger screens */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for the slider iframe */
+.slider-iframe {
+  width: 100%;
+  height: 600px; /* Fixed height for the iframe */
+  border: none; /* Remove border around iframe */
+}
+
+.title{
+  width: 200px;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 3px solid #39b54a;
+    margin-right: 0px;
+    text-align: center;
+    background: #440e62;
+    color: #fff;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+  }
+.row3 .title{
+    margin-right: 40%;
+  }
+  .content{
+  text-align: center;
+  margin-right: 300px;
+}
+.content .box{
+  width: 33%;
+  float: right;
+  transition: 2s;
+}
+.content .box:hover{
+  transform: rotate(360deg);
+}
+.content .box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff602;
+}
+.content .box h3{
+  font-size: 30px;
+  color: #000;
+}
+/* Clear floats for content elements */
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style for the additional image */
+.additional-image {
+    display: block;
+    margin: 0 auto;
+}
